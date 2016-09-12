@@ -20,17 +20,19 @@ This example walks through the workflow of a fully automated deployment/update o
 
 ###**Key milestones/High-level steps**
 
-1. **Creating secure Azure Service Fabric Cluster**
+1. [**Creating secure Azure Service Fabric Cluster**](https://github.com/djzeka/VSTS-AzureServiceFabric/blob/master/docs/Creating%20secure%20Azure%20Service%20Fabric%20Cluster.md)
 	- Create Self-Signed Certificate using PowerShell 
 	- Create Azure Key Vault & Import certificate to Azure Key Vault
 	- Create new secure Azure Service Fabric (ARM template or Azure portal)
-2. **Connecting VSTS & Azure Service Fabric**
+2. [**Connecting VSTS & Azure Service Fabric**](https://github.com/djzeka/VSTS-AzureServiceFabric/blob/master/docs/Connecting%20VSTS%20%26%20Azure%20Service%20Fabric.md)
 	- Create new project at Visual Studio Team Services & import source code/example app 
 	- Create a Service Link from Visual Studio Team Services to an Azure Service Fabric
-3. **Application Delivery & DevOps practices with Azure Service Fabric**
+3. [**Application Delivery & DevOps practices with Azure Service Fabric**](https://github.com/djzeka/VSTS-AzureServiceFabric/blob/master/docs/Application%20Delivery%20%26%20DevOps%20practices%20with%20Azure%20Service%20Fabric.md)
 	- Create Contentious Integration definition with Visual Studio Team Service
 	- Create new Release definition with Visual Studio Team Service
 	- Deploy/update the app & enjoy DevOps with Azure Service Fabric
+
+
 > **Note:** #TalkDevOps & @Alex_ZZ_
 
 > **Note:** *most of the things are done, but :) Work in progress - Still developing doc's and content. "watch" star the repo and get info/updates*
