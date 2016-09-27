@@ -26,7 +26,9 @@ Then select **Certificate based** authentication and fill in the fields:
 
 ![alt](../images/vsts-asf-06.jpg)
 
-> **Note:** at the point 3 you'll need to have Base64 encoding of the cluster certificate. As you can see you have help at the page or alternatively grab a one of mine [scripts]()
+> **Note:** at the point 3 you'll need to have Base64 encoding of the cluster certificate. As you can see you have help at the page or alternatively grab a one of mine [scripts](https://github.com/djzeka/VSTS-AzureServiceFabric/tree/master/scripts)
+
+> Also, there were update/change to the VSTS Service Endpoint "wizard", so now you must specify Service Port analog with Azure Service Fabric cluster URL (#2 field from pic) - e.g. **https://AzureServiceFabricCluster.westeurope.cloudapp.azure.com:19000**
 
 After this last step you have connected VSTS & your Azure Service Fabric cluster. It should look like this:
 
