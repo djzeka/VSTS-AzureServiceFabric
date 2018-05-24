@@ -2,17 +2,17 @@
 
 Quick guidance how to create Build & Release with VSTS & Secure Azure Service Fabric. This is done via 2 following steps: 
 
-- **Create Contentious Integration definition with Visual Studio Team Service** 
+- **Create Continuous Integration definition with Visual Studio Team Service** 
 - **Create new Release definition with Visual Studio Team Service**
 - **Deploy/update) the app & enjoy DevOps with Azure Service Fabric**
 
 > **Note:** In this example I'll focus on WordCount application building & releasing to Azure Service Fabric. It will offer you foundation/elementary how to do CI/CD/RM. Application code you can pic up from [my repo]() or from original source at GitHub also - link [WordCount](https://github.com/Azure-Samples/service-fabric-dotnet-getting-started/tree/master/Services/WordCount)
 
-###Create Contentious Integration definition with Visual Studio Team Service
+###Create Continuous Integration definition with Visual Studio Team Service
 
 > **Note:** Since this is an basic/usual step I'll just provide few links to get you going and focus on Azure Service Fabric specifics 
 > 
-*To create typical Contentious Integration Build, please follow this* [*guide*](https://www.visualstudio.com/en-us/docs/build/get-started/dot-net)
+*To create typical Continuous Integration Build, please follow this* [*guide*](https://www.visualstudio.com/en-us/docs/build/get-started/dot-net)
 >
 >I'm having 2 branches, Dev & Master, for this example. It is doable just with master branch - your choice how you will it ;)
 
@@ -66,7 +66,7 @@ Please under your project navigate to **Release**, click on create new Release D
 ![alt](../images/vsts-asf-12.jpg) 
 
 	
-Next select your Source(Build Definition), enable contentious deployment and click create
+Next select your Source(Build Definition), enable continuous deployment and click create
 
 ![alt](../images/vsts-asf-13.jpg) 
 
@@ -75,7 +75,7 @@ After sucesful creation of new release definition, first we shall configure **Ar
 
 ![alt](../images/vsts-asf-14.jpg) 
 
-> **Note:** this is where release definition will "look" for the artifact to do contentious deployment 
+> **Note:** this is where release definition will "look" for the artifact to do continuous deployment 
 
 Once this is done we need to jump to the environment tab, under current release definition, to configure Publish profile, App package and Cluster connection 
 
